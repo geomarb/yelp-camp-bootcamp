@@ -1,0 +1,10 @@
+<% include partials/header %>
+
+<h1><%= campground.name %></h1>
+<img src="<%= campground.image %>" class="rounded">
+<p><%= campground.description %></p>
+<h3>Comments</h3>
+<% campground.comments.forEach((comment) => { %>
+        <p><%- `"${comment.text}" by <strong>${comment.author}</stron>`  %></p>
+    <% }) %>
+<% include partials/footer %>

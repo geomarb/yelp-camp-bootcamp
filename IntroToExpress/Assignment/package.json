@@ -1,0 +1,14 @@
+{
+  "name": "assginment",
+  "version": "1.0.0",
+  "description": "Lesson node js basic",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geomar Bastiani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
